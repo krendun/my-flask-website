@@ -1,0 +1,67 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Python Cache Files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Database Files
+*.db
+*.sqlite
+*.sqlite3
+portfolio.db
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.production
+config.py
+
+# IDE & Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary Files
+*.tmp
+*.temp
+
+# Flask Instance Folder
+instance/
+
+# Coverage Reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+
+# pytest
+.pytest_cache/
+
+# Node modules (if you use any frontend tools)
+node_modules/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
